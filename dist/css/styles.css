@@ -1,0 +1,21 @@
+li {
+	list-style: none;
+}
+
+#appInfo {
+	/* webpack不能处理url地址，必须安装第三方组件url-loader和file-loader */
+	background-image: url(../image/fe534198-default-teacher.png);
+	background-size: cover;
+}
+
+#loginCom h1 {
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#comment h1 {
+	color: green;
+	text-decoration: underline;
+	text-align: center;
+}
