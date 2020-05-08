@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		
+	</head>
+
+	<body>
+		<div id="app">
+		</div>
+	</body>
+	<!-- 注意：webpack-server-dev工具把bundle.js文件放到根目录上，并且这个js文件是个放在内存中的虚拟文件，磁盘中找不到此物理文件 -->
+	<!-- webpack构建vue项目，这个js文件一定要放到尾部，保证页面全部渲染完成才加载js -->
+	<script src="/bundle.js" type="text/javascript" charset="utf-8"></script>
+</html>

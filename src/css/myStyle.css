@@ -1,0 +1,9 @@
+li {
+	list-style: none;
+}
+
+#appInfo {
+	/* webpack不能处理url地址，必须安装第三方组件url-loader和file-loader */
+	background-image: url(../img/default-teacher.png);
+	background-size: cover;
+}
